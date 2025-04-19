@@ -1,7 +1,7 @@
 let hr = min = sec = ms = "0" + 0,
     startTimer;
 
-const startBtn = document.querySelector(".start")
+const startBtn = document.querySelector(".start");
 const stopBtn = document.querySelector(".stop")
 const resetBtn = document.querySelector(".reset")
 
