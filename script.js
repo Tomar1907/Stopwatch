@@ -2,8 +2,8 @@ let hr = min = sec = ms = "0" + 0,
     startTimer;
 
 const startBtn = document.querySelector(".start");
-const stopBtn = document.querySelector(".stop")
-const resetBtn = document.querySelector(".reset")
+const stopBtn = document.querySelector(".stop");
+const resetBtn = document.querySelector(".reset");
 
 startBtn.addEventListener("click" , start);
 stopBtn.addEventListener("click" , stop);
